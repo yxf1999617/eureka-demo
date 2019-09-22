@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="serviceA" />
+        <module name="serviceB" />
+        <module name="servicec" />
+      </profile>
+      <profile name="Annotation profile for eureka-demo" enabled="true">
+        <sourceOutputDir name="../eureka-server/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../eureka-server/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka" target="1.6" />
+      <module name="eureka-demo" target="1.6" />
+      <module name="eureka-server" target="1.6" />
+      <module name="eureka-server (1)" target="1.6" />
+      <module name="serviceA" target="1.6" />
+      <module name="serviceB" target="1.6" />
+      <module name="servicec" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
